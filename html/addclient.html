@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>DATABASE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/addclient_style.css" rel="stylesheet">
+
+</head>
+
+<body bgcolor="#808080">
+    <div class="content">
+        <form arction="php/addclient.php" method="post">
+            <h2>ИМЯ</h2>
+            <input name="name" type="text" maxlength="20" size="20">
+            <h2>ФАМИЛИЯ</h2>
+            <input name="surname" type="text" maxlength="20" size="20">
+            <h2>ТЕЛЕФОН</h2>
+            <input name="phone" type="text" maxlength="20" size="20">
+            <h2>РЕЦЕПТ</h2>
+            <textarea name="glass" type="text" maxlength="500" size="500"></textarea>
+            <br>
+            <br>
+            <button type="submit">ДОБАВИТЬ</button>
+        </form>
+    </div>
+</body>
